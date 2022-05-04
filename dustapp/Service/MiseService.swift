@@ -31,10 +31,8 @@ class MiseService {
         switch change {
         case .began:
             print("startAPI...")
-            //LoadingView.shared.show()
         case .ended:
             print("endAPI!")
-            //LoadingView.shared.hide()
         }
     })])
     
