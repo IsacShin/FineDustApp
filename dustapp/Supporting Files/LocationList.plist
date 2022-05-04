@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>종로구</string>
+	<string>중구</string>
+	<string>용산구</string>
+	<string>성동구</string>
+	<string>광진구</string>
+	<string>동대문구</string>
+	<string>중랑구</string>
+	<string>성북구</string>
+	<string>강북구</string>
+	<string>도봉구</string>
+	<string>노원구</string>
+	<string>은평구</string>
+	<string>서대문구</string>
+	<string>마포구</string>
+	<string>양천구</string>
+	<string>강서구</string>
+	<string>구로구</string>
+	<string>금천구</string>
+	<string>영등포구</string>
+	<string>동작구</string>
+	<string>관악구</string>
+	<string>서초구</string>
+	<string>강남구</string>
+	<string>송파구</string>
+	<string>강동구</string>
+</array>
+</plist>

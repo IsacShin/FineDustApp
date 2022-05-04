@@ -11,19 +11,13 @@ import ObjectMapper
 
 
 class MiseModel:Codable {
-    var pm10:Int?
-    var pm25:Int?
-    var khai:Int?
+    var pm10:String?
+    var pm25:String?
     var dateTime:String?
-    var so:Double?
-    var co:Double?
-    var no:Double?
-    var o3:Double?
     
     init(jsonData:JSON) {
-        pm10 = jsonData["pm10Value"].int ?? 0
-        pm25 = jsonData["pm25Value"].int ?? 0
-        khai = jsonData["khaiGrade"].int ?? 0
+        pm10 = jsonData["pm10Value"].string ?? ""
+        pm25 = jsonData["pm25Value"].string ?? ""
         dateTime = jsonData["msurDt"].string ?? ""
     }
     
